@@ -34,11 +34,12 @@
 .pinkvase{
     display: flex;
     gap: 20px;
+    background-color:#e2dfd6;
 }
 .Grow{
     display: flex;
     justify-content: space-between;
-    background-color:#e2dfd6
+    background-color:#e2dfd6;
 }
 .smallImage{
     width: 200px;
