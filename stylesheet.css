@@ -1,0 +1,319 @@
+.opening{
+    display: flex;
+    background-color: #65a15b;
+    color: aliceblue;
+    
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+    /* justify-content: space-between; */
+}
+.opening{
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    display: flex;
+    gap: 5px;
+    
+    height:5%;
+}
+.summer{
+    display: flex;
+    gap: 30px;
+    margin-left: 10%;
+
+}
+.pinkvase{
+    display: flex;
+    gap: 20px;
+}
+.Grow{
+    display: flex;
+    justify-content: space-between;
+}
+.smallImage{
+    width: 200px;
+}
+.bigImage{
+    width: 700px;
+    /* height: 50%; */
+}
+.onsale{
+    display: flex;
+    gap: 20px;
+    margin-left: 10%;
+}
+.springstore{
+    display: flex;
+    gap: 10px;
+}
+.trending{
+    display: flex;
+    /* gap: 5px;  */
+}
+.potted{
+    display: flex;
+    gap: 10px;
+}
+.midtext{
+    text-align: center;
+    
+}
+.Allplants{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 10%;
+}
+.plants{
+    display: flex;
+    flex-wrap: wrap;
+}
+.div1{
+    display: flex;
+}
+.green{
+    color:#65a15b ;
+}
+.glassplant{
+    margin-right: 20%;
+}
+.btn{
+    color: aliceblue;
+    background-color: #65a15b;
+    width: 30%;
+    border-color:#65a15b ;
+    border-width: 20%;
+    
+}
+.Bottledtree{
+    display: flex;
+    gap: 3%;
+    align-items: center;
+    margin-left: 20%;
+    
+}
+.background{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+.glass{
+    display: flex;
+}
+.blackvase{
+    display: flex;
+}
+.facevase{
+    display: flex;
+}
+.amazingspring{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+}
+.groupedcactus{
+    display: flex;
+    margin-left: 10%;
+    /* gap: 10px; */
+}
+.blog{
+    display: flex;
+    /* margin-left: 20%; */
+    gap: 10%;
+}
+.clients{
+    display: flex;
+    margin-left: 30%;
+    gap: 3%;
+}
+.footer{
+    display: flex;
+    margin-left: 30%;
+    gap: 10%;
+}
+.Text{
+    color: #808080;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+@media screen and (max-width:375px) {
+    .opening{
+        display: flex;
+        background-color: #65a15b;
+        color: aliceblue;
+        
+    }
+    #navbar{
+        display: grid;
+        grid-template-columns: 1 1fr;
+    }
+    .icons{
+        display: grid;
+        gap: none;
+        
+        height:1%;
+    }
+    .summer{
+        display: grid;
+        grid-template-columns: 1 1fr;
+        margin-right: 15%;
+    }
+    .pinkvase{
+        display: grid;
+        
+        gap: none;
+    }
+    .Grow{
+        display:grid;
+        gap: none;
+    }
+    .smallImage{
+        width: 100px;
+    }
+    .bigImage{
+        width: 300px;
+        /* height: 50%; */
+    }
+    .bigImages{
+        width: 350px;
+    }
+    .onsale{
+        display: grid;
+        
+    }
+    .springstore{
+        display: grid;
+       
+    }
+    .trending{
+        display: grid;
+        /* gap: 5px;  */
+    }
+    .midtext{
+        text-align: center;
+        margin-top: 50%;
+        
+    }
+    .Allplants{
+        display: grid;
+        grid-template-columns: 1 1fr;
+        gap: 20px;
+        
+    }
+    .plants{
+        display: grid;
+        grid-template-columns: 1 1fr;
+    
+    }
+    .div1{
+        display: grid;
+    }
+    .glassplant{
+        margin: center;
+    }
+    .Bottledtree{
+        display: grid;
+        gap: 3%;
+        
+        margin-right: 20%;
+        
+    }
+    .standalone{
+        width: 300px;
+    }
+    .background{
+        display: grid;
+        align-items: center;
+        margin-left: 0%;
+        background-color:#e2dfd6 ;
+    }
+    .glass{
+        display: grid;
+    }
+    .blackvase{
+        display: grid;
+    }
+    .facevase{
+        display: grid;
+    }
+    .amazingspring{
+        display: grid;
+        margin-left: 0%;
+    }
+    .groupedcactus{
+        display: grid;
+        
+        /* gap: 10px; */
+    }
+    .groupcactus{
+        width: 300px;
+    }
+    .blog{
+        display: grid;
+        /* margin-left: 20%; */
+        
+    }
+    .clients{
+        display: grid;
+        margin-left: 30%;
+        gap: 3%;
+    }
+    .footer{
+        display: grid;
+        margin-left: 30%;
+        gap: 10%;
+    }
+    .potted{
+        display: grid;
+    }
+    .body{
+        overflow: hidden;
+    }
+}
+/* @media screen and (min-width:700px){
+    .opening{
+        display: grid;
+        background-color: #65a15b;
+        color: aliceblue;
+        
+    }
+    #navbar{
+        display: grid;
+        grid-template-columns: 1 1fr;
+    }
+    /* .summer{
+        display: grid;
+        grid-template-columns: 1 1fr;
+        margin-right: 15%;
+    }
+    .pinkvase{
+        display: grid;
+        
+        gap: none;
+    }
+    .Grow{
+        display:grid;
+        gap: none;
+    }
+    .Grow{
+        display:grid;
+        gap: none;
+    } */
+    /* .smallImage{
+        width: 200px;
+    }
+    .bigImage{
+        width: 300px; */
+        /* height: 50%; */
+    } */
+}
