@@ -38,6 +38,7 @@
 .Grow{
     display: flex;
     justify-content: space-between;
+    background-color:#e2dfd6
 }
 .smallImage{
     width: 200px;
@@ -176,6 +177,7 @@
     .Grow{
         display:grid;
         gap: none;
+        background-color:#e2dfd6
     }
     .smallImage{
         width: 100px;
@@ -276,7 +278,10 @@
     .potted{
         display: grid;
     }
-    .body{
+    .bigImages{
+        width: 300px;
+    }
+    .container{
         overflow: hidden;
     }
 }
@@ -315,5 +320,4 @@
     .bigImage{
         width: 300px; */
         /* height: 50%; */
-    } */
-}
+
